@@ -35,7 +35,7 @@ fun WelcomeScreen(
     ) {
 
         arguments.name?.let { name ->
-            Text(text = name, fontSize = 28.sp, fontWeight = FontWeight.Medium)
+            Text(text = "Hello $name!", fontSize = 28.sp, fontWeight = FontWeight.Medium)
         }
 
         Spacer(modifier = Modifier.height(20.dp))
